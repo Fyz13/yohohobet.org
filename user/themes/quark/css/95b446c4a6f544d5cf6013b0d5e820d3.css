@@ -14,12 +14,21 @@
 }
 
 @font-face {
-    font-family: 'benzin-regular';
-    src: url('../fonts/benzin-regular.woff') format('woff');
+    font-family: 'unbounded-black';
+    src: url('../fonts/unbounded-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'unbounded-black';
+    src: url('../fonts/Unbounded-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 
@@ -43587,7 +43596,7 @@ h1,.h1 {
 	/* line-height: 4.375rem; */
 	letter-spacing: 0.04em;
 	line-height: 1.1;
-	font-size: 70px;
+	font-size: 64px;
 }
 
 @media (max-width: 767px) {
@@ -51644,7 +51653,7 @@ input:focus,select:focus,textarea:focus,.form-control:focus {
 
 .fw-600 {
 	font-weight: 600!important;
-	font-family: "benzin-regular", serif;
+	font-family: "unbounded-black", serif;
 }
 
 .fw-700 {
@@ -56490,7 +56499,7 @@ blockquote footer {
 
 .btn.btn-switch-text.btn-extra-large {
 	padding: 0;
-	font-family: "benzin-regular", serif;
+	font-family: "unbounded-black", serif;
 }
 
 .btn.btn-switch-text.btn-extra-large>span {
@@ -92983,7 +92992,7 @@ footer .footer-navbar .nav-item:last-child a {
 	}
 
 	.header-transparent[data-header-hover=dark] {
-		background-color: var(--dark-gray)!important;
+		background-color: #401515 !important;
 	}
 
 	.header-transparent[data-header-hover=dark] .navbar-toggler-line {
@@ -93007,7 +93016,7 @@ footer .footer-navbar .nav-item:last-child a {
 	}
 
 	.header-transparent[data-header-hover=dark] .navbar-collapse {
-		background-color: var(--dark-gray);
+		background-color: #401515;
 	}
 
 	.header-transparent[data-header-hover=dark] .navbar-nav .nav-link {
@@ -95030,7 +95039,7 @@ body {
 }
 
 h1 {	
-	font-family: "benzin-medium",serif;
+	font-family: "unbounded-black",serif;
 	color: #ffffff;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -95040,7 +95049,7 @@ h1 {
 
 
 h2 {	
-	font-family: "benzin-medium",serif;
+	font-family: "unbounded-black",serif;
 	color: #ffffff;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -95051,7 +95060,7 @@ h2 {
 
 @media (max-width: 767px) {
 h2 {	
-	font-family: "benzin-medium",serif;
+	font-family: "unbounded-black",serif;
 	color: #ffffff;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -95063,7 +95072,7 @@ h2 {
 
 
 h3,h4 {	
-	font-family: "benzin-medium",serif;
+	font-family: "unbounded-black",serif;
 	color: var(--base-color);
 	font-weight: 800;
 	text-transform: uppercase;
@@ -95073,7 +95082,7 @@ h3,h4 {
 }
 @media (max-width: 767px) {
 h3,h4 {	
-	font-family: "benzin-medium",serif;
+	font-family: "unbounded-black",serif;
 	color: var(--base-color);
 	font-weight: 800;
 	text-transform: uppercase;
@@ -95113,7 +95122,7 @@ hr.sep-1 {
 	background-color: var(--red);
 	border-color: var(--red);
 	color: var(--white)!important;
-	font-family: "benzin-regular", serif;
+	font-family: "unbounded-black", serif;
 }
 
 .header-button .btn.btn-base-color:hover {
@@ -95185,7 +95194,7 @@ header .navbar-brand img {
 }
 
 .bg-gradient-black-bottom-transparent {
-	background: linear-gradient(to top,#0D1517 100%,#0D1517 0%);
+	background: linear-gradient(to top, #401515 100%, #2f1313 0%);
 }
 
 .border-color-very-light-gray {
